@@ -1,0 +1,17 @@
+*{
+    color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+p{
+    color: white;
+    background-color: blue;
+}
+.parrafo{
+    color: black;
+    background-color: green;
+}
+h2{
+    color: yellow;
+    background-color: red;
+}
