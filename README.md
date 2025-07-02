@@ -3,10 +3,10 @@
 REALIZACIÓN DE ACTUACIONES EN CLASE:
 
 1.Sitio web con navbar y otras caracterpisticas (WebNavBar)
-https://upasf05.github.io/ActuacionesLW/WebNavBar/
+https://upasf05.github.io/ActuacionesLW/WebNavbar/
 
 2.Consulta sobre FlexBox y Grid (ConsultaFlexBoxGrid), con un archivo docx de la consulta y una web html de guía
-https://upasf05.github.io/ActuacionesLW/ConsultaFlexBoxGrid/
+https://upasf05.github.io/ActuacionesLW/ConsultaFlexboxGrid/
 
 3.Sitio web creado con inteligencia artificial (WebConIA)
 https://upasf05.github.io/ActuacionesLW/WebConIA/
