@@ -1,0 +1,69 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Grid</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="contenido">
+    <h1>CSS Grid</h1>
+
+    <p>
+      CSS Grid Layout, también conocido simplemente como "Grid", es un sistema de diseño bidimensional que permite organizar los elementos en filas y columnas. A diferencia de Flexbox, que es unidimensional, Grid permite el control total del espacio en ambas direcciones.
+    </p>
+
+    <h2>¿Qué resuelve CSS Grid?</h2>
+    <p>
+      Antes de Grid, los desarrolladores usaban tablas, `float` y `inline-block` para maquetar sitios web. Estas técnicas eran limitadas y poco intuitivas.
+      Grid permite crear diseños complejos de forma clara, precisa y con mucho menos código.
+    </p>
+
+    <h2>Estructura básica</h2>
+    <p>
+      CSS Grid se activa con <code>display: grid;</code> en un contenedor. Luego se definen las filas y columnas con <code>grid-template-columns</code> y <code>grid-template-rows</code>.
+      Los elementos hijos (items) se colocan automáticamente en las celdas creadas o pueden ser posicionados con precisión usando propiedades como <code>grid-column</code> y <code>grid-row</code>.
+    </p>
+
+    <h2>Conceptos clave</h2>
+    <ul>
+      <li><strong>Línea (grid line):</strong> Líneas que dividen filas y columnas.</li>
+      <li><strong>Celda:</strong> Espacio entre dos líneas de fila y dos de columna.</li>
+      <li><strong>Área:</strong> Conjunto de celdas con un nombre asignado.</li>
+      <li><strong>Contenedor e ítems:</strong> Estructura básica para trabajar en Grid.</li>
+    </ul>
+
+    <h2>Propiedades esenciales de CSS Grid</h2>
+    <ul>
+      <li><strong>grid-template-columns / rows:</strong> Define el tamaño y número de columnas o filas.</li>
+      <li><strong>grid-area:</strong> Asigna nombre a una región específica.</li>
+      <li><strong>gap:</strong> Define el espacio entre filas y columnas.</li>
+      <li><strong>justify-items / align-items:</strong> Alinea los ítems dentro de sus celdas.</li>
+      <li><strong>justify-content / align-content:</strong> Alinea la cuadrícula dentro del contenedor.</li>
+      <li><strong>repeat(), minmax(), auto-fill, auto-fit:</strong> Funciones para generar diseños automáticos y adaptables.</li>
+    </ul>
+
+    <h2>Ejemplo básico</h2>
+    <pre><code>.contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 1fr));
+  gap: 10px;
+}</code></pre>
+
+    <h2>Unidades de medida</h2>
+    <p>
+      CSS Grid usa unidades como <code>px</code> (píxeles) y <code>fr</code> (fracciones del espacio disponible). Estas unidades permiten ajustar el tamaño de columnas y filas fácilmente.
+    </p>
+
+    <h2>Conclusión</h2>
+    <p>
+      CSS Grid es uno de los módulos más potentes de CSS para maquetar sitios web. Ofrece libertad, flexibilidad y orden en el diseño de páginas modernas, adaptables a cualquier pantalla.
+    </p>
+
+    <p><a href="Flexbox.html">Volver a la página de Flexbox</a></p>
+
+    <p><a href="index.html">Volver al menú</p>
+  </div>
+</body>
+</html>
