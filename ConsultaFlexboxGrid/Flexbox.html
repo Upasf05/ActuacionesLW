@@ -8,29 +8,53 @@
 </head>
 <body>
   <div class="contenido">
-    <h1>¿Qué es Flexbox?</h1>
+    <h1>Flexbox en CSS</h1>
+
     <p>
-      Flexbox es un modelo de diseño incluido en CSS3 que permite distribuir y alinear elementos de forma eficiente en una página web. Fue creado para facilitar el diseño flexible y adaptable
-      a distintos tamaños de pantalla, como celulares, tabletas y computadoras. Flexbox organiza los elementos dentro de un contenedor, permitiendo que se ajusten automáticamente según el espacio disponible.
-    </p>
-    <p>
-      Un contenedor Flexbox se define usando la propiedad <code>display: flex;</code>, y dentro de él los elementos pueden alinearse horizontal o verticalmente, con opciones para controlar el orden,
-      el tamaño relativo, los espacios entre ellos y su envoltura. Esto elimina muchos problemas que antes se resolvían con `float` o `position`.
+      En el desarrollo web moderno, una de las prioridades ha sido lograr un diseño limpio, flexible y adaptable a múltiples dispositivos. Flexbox (Flexible Box Layout) es un módulo de CSS3 que fue creado precisamente para ello.
+      Su objetivo es facilitar la distribución y alineación de elementos dentro de un contenedor, optimizando el diseño sin necesidad de escribir código complejo.
     </p>
 
-    <h2>Propiedades esenciales</h2>
+    <h2>¿Por qué surgió Flexbox?</h2>
+    <p>
+      Durante años, diseñadores web enfrentaron dificultades al intentar posicionar elementos usando `float`, `inline-block` o `position`. Estos métodos podían funcionar, pero complicaban el código y reducían la eficiencia.
+      Flexbox fue diseñado como una solución moderna a esos problemas, ofreciendo un sistema flexible que se adapta al tamaño del contenido y del contenedor.
+    </p>
+
+    <h2>¿Cómo funciona Flexbox?</h2>
+    <p>
+      Para utilizar Flexbox, se debe aplicar <code>display: flex;</code> a un contenedor. Dentro de este, los elementos hijos se llaman “elementos flex” y se comportarán según las propiedades aplicadas.
+      La base de Flexbox es el uso de dos ejes: el eje principal (horizontal por defecto) y el eje secundario (vertical). Estos ejes permiten definir cómo se organizan y alinean los elementos.
+    </p>
+
+    <h2>Elementos clave</h2>
+    <p>
+      Flexbox trabaja con dos niveles de estructura: el <strong>contenedor flex</strong> y los <strong>elementos flex</strong>. El contenedor agrupa los elementos y les aplica reglas comunes de diseño.
+    </p>
+
+    <h2>Propiedades principales de Flexbox</h2>
+
     <ul>
-      <li><strong>flex-direction:</strong> Define la dirección de los elementos (horizontal o vertical).</li>
-      <li><strong>flex-wrap:</strong> Permite que los elementos se envuelvan en varias líneas si no caben.</li>
-      <li><strong>justify-content:</strong> Alinea los elementos en el eje horizontal (inicio, centro, final, espacio entre ellos).</li>
-      <li><strong>align-items:</strong> Alinea los elementos en el eje vertical dentro del contenedor.</li>
+      <li><strong>flex-direction:</strong> Define la dirección principal del contenedor (row, column, row-reverse, column-reverse).</li>
+      <li><strong>flex-wrap:</strong> Controla si los elementos deben ajustarse o seguir en una línea (nowrap, wrap, wrap-reverse).</li>
+      <li><strong>justify-content:</strong> Alinea los elementos en el eje principal (flex-start, center, flex-end, space-between, space-around, space-evenly).</li>
+      <li><strong>align-items:</strong> Alinea los elementos en el eje secundario (flex-start, center, flex-end, stretch, baseline).</li>
     </ul>
 
+    <h2>Ejemplo básico de uso</h2>
+    <pre><code>.contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}</code></pre>
+
+    <h2>Conclusión</h2>
     <p>
-      Con estas propiedades es posible crear diseños modernos, centrados y responsivos de manera sencilla. Flexbox es ideal para estructuras lineales, como menús horizontales o tarjetas en una fila.
+      Flexbox es una herramienta poderosa y esencial para cualquier desarrollador web. Permite alinear elementos de manera sencilla y flexible, adaptándose a cualquier pantalla y manteniendo el diseño organizado y moderno.
     </p>
 
-    <p><a href="CSSGrid.html">Ver página sobre CSS Grid</a></p>
+    <p><a href="CSSGrid.html">Ir a la página de CSS Grid</a></p>
 
     <p><a href="index.html">Volver al menú</a></p>
   </div>
