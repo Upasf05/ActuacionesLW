@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de HTML Básico</title>
+</head>
+<body>
+
+  <!-- Encabezados -->
+  <h1>Encabezado H1</h1>
+  <h2>Encabezado H2</h2>
+  <h3>Encabezado H3</h3>
+  <h4>Encabezado H4</h4>
+  <h5>Encabezado H5</h5>
+  <h6>Encabezado H6</h6>
+
+  <!-- Párrafos -->
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+  <!-- Lista no ordenada -->
+  <h2>Lista No Ordenada</h2>
+  <ul>
+    <li>Elemento uno</li>
+    <li>Elemento dos</li>
+    <li>Elemento tres</li>
+  </ul>
+
+  <!-- Lista ordenada -->
+  <h2>Lista Ordenada</h2>
+  <ol>
+    <li>Paso uno</li>
+    <li>Paso dos</li>
+    <li>Paso tres</li>
+  </ol>
+
+  <!-- Lista de definición -->
+  <h2>Lista de Definición</h2>
+  <dl>
+    <dt>HTML</dt>
+    <dd>Lenguaje de marcado para crear páginas web.</dd>
+    <dt>CSS</dt>
+    <dd>Lenguaje de estilos para diseñar páginas web.</dd>
+    <dt>JavaScript</dt>
+    <dd>Lenguaje de programación para hacer páginas interactivas.</dd>
+  </dl>
+
+  <!-- Tabla básica -->
+  <h2>Tabla Básica</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Ciudad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ana</td>
+        <td>28</td>
+        <td>Madrid</td>
+      </tr>
+      <tr>
+        <td>Carlos</td>
+        <td>34</td>
+        <td>Barcelona</td>
+      </tr>
+      <tr>
+        <td>Lucía</td>
+        <td>22</td>
+        <td>Valencia</td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Sublistas</h2>
+  <ol>
+    <li>definiciones
+      <ul>
+        <li>java</li>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, officiis.</p>
+      </ul>
+    </li>
+    <li>C</li>
+    <li>pasos realizar un programación
+      <ol>
+        <li>abrir el IDE</li>
+        <li>crear un nuevo proyecto</li>
+        <li>escribir el código</li>
+        <li>ejecutar el programa</li>
+      </ol>
+    </li>
+    </ol>
+    <h2>Registro de datos personales</h2>
+    <form action="">
+      <div>
+        <label for="">Nombre</label>
+        <input type ="text" placeholder="Introduzca su nombre">
+      </div>
+      <div>
+        <label for="">Edad</label>
+        <input type="number" disabled />
+      </div>
+      <div>
+        <label for="">Email</label>
+        <input type="email">
+      </div>
+      <div>
+        <label for="">Contraseña</label>
+        <input type="password" placeholder="Introduzca su contraseña">
+      </div>
+      <textarea name="" id="" placeholder="ingrese un comentario" rows="20" cols="40"></textarea>
+      <p>Seleccione lenguajes de programación que usted conoce</p>
+      <div>
+        <label for="">Java</label><label for=""></label>
+        <input type="checkbox" name="" id="">
+      </div>
+      <div>
+        <label for="">C++</label><label for=""></label>
+        <input type="checkbox" name="" id="">
+      </div>
+      <div>
+        <label for="">Kotlin</label><label for=""></label>
+        <input type="checkbox" name="" id="">
+      </div>
+      <p>Seleccione su nivel de inglés</p>
+      <div>
+        <label for="">A1</label>
+        <input type="radio" name="inglés" id=""/>
+      </div>
+      <div>
+        <label for="">A2</label>
+        <input type="radio" name="inglés" id=""/>
+      </div>
+      <div>
+        <label for="">A3</label>
+        <input type="radio" name="inglés" id=""/>
+      </div>
+      <div>
+        <label for="">B1</label>
+        <input type="radio" name="inglés" id=""/>
+      </div>
+      <div>
+        <label for="">B2</label>
+        <input type="radio" name="inglés" id=""/>
+      </div>
+      <p>Seleccione una provinica </p>
+      <select name="provincias" id="">
+        <option value="">Seleccione una provincia</option>
+        <option value="">Madrid</option>
+        <option value="">Barcelona</option>
+        <option value="">Valencia</option>
+        <option value="">Sevilla</option>
+      </select>
+      <p>Seleccione el semestre actual en el que se encuentra</p>
+      <select name="semestre" id="">
+        <option selected value="123">Seleccione un semestre</option>
+        <option value="1">1er semestre</option>
+        <option value="2">2do semestre</option>
+        <option value="3">3er semestre</option>
+        <option value="4">4to semestre</option>
+      </select>
+      <br>
+      <div>
+        <input type="submit" value="Enviar" />
+        <button>Registrar</button>
+      </div>
+      <div>
+        <input type="file">
+      </div>
+      <input type="date">
+      <input type="time">
+      <input type="color">
+    </form>
+    <h1>Etiquetas en línea</h1>
+    <p>Hola, este es un <strong>texto en negrita</strong> y este es un <em>texto en cursiva</em>, 
+     y este un <span style="color: blue; font-size: larger;">texto personalizado</span> gracias a HTML.</p>
+    <p><abbr title="Lenguaje de marcado de hipertexto">Este es un texto que si pones el cursor, saldrá algo.</abbr></p> 
+    <h1>El código</h1>
+    <p>Nos permite dar vida a algoritmos en este sistema, visibles desde esta pantalla. <i>Es verdaderamente interesante </i><strong>y curioso a la vez.</strong></p>
+    <h3>Ejemplos</h3>
+    <pre><code>
+      val num1 =8
+      val num2 = 5
+      val suma = num1 + num2
+      fun sumar (){
+        printIn("La suma de $Num1 y $Num2 es: 
+        $suma")
+      }
+    </code></pre>
+    <pre><code>
+        val num1 = 8
+        val num2 = 5
+        val suma = num1 + num2
+
+        fun sumar() {
+          printIn("La suma de $sum1 y $num2 es:
+          $suma")
+        }
+    </code></pre>
+       <div class="container">
+        <div class="botones">
+            <div>
+                <h2>php</h2>
+            </div>
+        </div>
+    
+    <pre><code>
+      <div class=" "codigo">
+        <pre><code>
+        &lt?php
+            $num1 = 5
+            $num2 = 10;
+        
+            $suma = $num1 + $num2;
+            echo "La suma es: " , $suma; // Salida: La suma es: 15
+        ?>
+        </code></pre>
+    </code></pre>
+        </div>
+
+    <h3>Ejemplo de variables</h3>
+    <pre><code>
+        int numero = 9;
+          String nombre = "Juan";
+    </code></pre>
+
+    <h2>Citas Bibliográficas</h2>
+    <p>Esto lo comprobé yo mismo, solamente yo.</p>
+    <cite>Juan Pérez</cite>
+
+    <blockquote>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Enim queas molestiae totam, fecusandae?</p>
+        <footer>
+          <cite>Juan Pérez</cite>
+          <time datetime="2023-10-1">1 de octubre de 2023</time>
+        </footer>
+    </blockquote>
+    <h2>Imagenes</h2>
+    <img src=".img/image1.png" witdh="200" alt="imagenes sobre etiquetas en linea" />
+
+    <h2>Enlaces</h2>
+
+    <a href="https://www.youtube.com/" target="_self"> Ir a YouTube</a>
+  </body>
+</html>
