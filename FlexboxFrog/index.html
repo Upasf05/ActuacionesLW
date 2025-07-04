@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Página Verde</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Bienvenido al menú de sapitos</h1>
+    <p>Aprendiendo PHP de una manera amigable</p>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Ejercicios de FlexBox Froggy</h2>
+      <p>En esta página se muestran los capturas de todos los niveles del juego FlexBoX Frog completados a través de conceptos básico de desarrollo web.</p>
+    </section>
+
+    <section>
+      <h2>Niveles del juego: 1 al 24.</h2>
+      <p>Galería de capturas de pantalla de cada nivel, más una imagen final especial. Haga clic en cada imagen para ver más detalle cada nivel.</p>
+
+      <div class="galeria">
+        <figure><img src="N1.png" alt="Nivel 1" onclick="ampliar(this)"><figcaption>Nivel 1</figcaption></figure>
+        <figure><img src="N2.png" alt="Nivel 2" onclick="ampliar(this)"><figcaption>Nivel 2</figcaption></figure>
+        <figure><img src="N3.png" alt="Nivel 3" onclick="ampliar(this)"><figcaption>Nivel 3</figcaption></figure>
+        <figure><img src="N4.png" alt="Nivel 4" onclick="ampliar(this)"><figcaption>Nivel 4</figcaption></figure>
+        <figure><img src="N5.png" alt="Nivel 5" onclick="ampliar(this)"><figcaption>Nivel 5</figcaption></figure>
+        <figure><img src="N6.png" alt="Nivel 6" onclick="ampliar(this)"><figcaption>Nivel 6</figcaption></figure>
+        <figure><img src="N7.png" alt="Nivel 7" onclick="ampliar(this)"><figcaption>Nivel 7</figcaption></figure>
+        <figure><img src="N8.png" alt="Nivel 8" onclick="ampliar(this)"><figcaption>Nivel 8</figcaption></figure>
+        <figure><img src="N9.png" alt="Nivel 9" onclick="ampliar(this)"><figcaption>Nivel 9</figcaption></figure>
+        <figure><img src="N10.png" alt="Nivel 10" onclick="ampliar(this)"><figcaption>Nivel 10</figcaption></figure>
+        <figure><img src="N11.png" alt="Nivel 11" onclick="ampliar(this)"><figcaption>Nivel 11</figcaption></figure>
+        <figure><img src="N12.png" alt="Nivel 12" onclick="ampliar(this)"><figcaption>Nivel 12</figcaption></figure>
+        <figure><img src="N13.png" alt="Nivel 13" onclick="ampliar(this)"><figcaption>Nivel 13</figcaption></figure>
+        <figure><img src="N14.png" alt="Nivel 14" onclick="ampliar(this)"><figcaption>Nivel 14</figcaption></figure>
+        <figure><img src="N15.png" alt="Nivel 15" onclick="ampliar(this)"><figcaption>Nivel 15</figcaption></figure>
+        <figure><img src="N16.png" alt="Nivel 16" onclick="ampliar(this)"><figcaption>Nivel 16</figcaption></figure>
+        <figure><img src="N17.png" alt="Nivel 17" onclick="ampliar(this)"><figcaption>Nivel 17</figcaption></figure>
+        <figure><img src="N18.png" alt="Nivel 18" onclick="ampliar(this)"><figcaption>Nivel 18</figcaption></figure>
+        <figure><img src="N19.png" alt="Nivel 19" onclick="ampliar(this)"><figcaption>Nivel 19</figcaption></figure>
+        <figure><img src="N20.png" alt="Nivel 20" onclick="ampliar(this)"><figcaption>Nivel 20</figcaption></figure>
+        <figure><img src="N21.png" alt="Nivel 21" onclick="ampliar(this)"><figcaption>Nivel 21</figcaption></figure>
+        <figure><img src="N22.png" alt="Nivel 22" onclick="ampliar(this)"><figcaption>Nivel 22</figcaption></figure>
+        <figure><img src="N23.png" alt="Nivel 23" onclick="ampliar(this)"><figcaption>Nivel 23</figcaption></figure>
+        <figure><img src="N24.png" alt="Nivel 24" onclick="ampliar(this)"><figcaption>Nivel 24</figcaption></figure>
+        <figure><img src="FJG.png" alt="Final del juego" onclick="ampliar(this)"><figcaption>Final del juego</figcaption></figure>
+      </div>
+
+      <div id="visor" class="modal" onclick="cerrarModal()">
+        <span class="cerrar">&times;</span>
+        <img class="modal-img" id="imgGrande" alt="Captura ampliada">
+      </div>
+</section>
+
+    <section>
+      <button>Volver al menú</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Upasf05. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
